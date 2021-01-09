@@ -15,6 +15,7 @@ import (
 	"github.com/trezor/blockbook/bchain/coins/bellcoin"
 	"github.com/trezor/blockbook/bchain/coins/bitcore"
 	"github.com/trezor/blockbook/bchain/coins/bitzeny"
+	"github.com/trezor/blockbook/bchain/coins/bltg"
 	"github.com/trezor/blockbook/bchain/coins/btc"
 	"github.com/trezor/blockbook/bchain/coins/btg"
 	"github.com/trezor/blockbook/bchain/coins/cpuchain"
@@ -61,6 +62,7 @@ var BlockChainFactories = make(map[string]blockChainFactory)
 func init() {
 	BlockChainFactories["Bitcoin"] = btc.NewBitcoinRPC
 	BlockChainFactories["Testnet"] = btc.NewBitcoinRPC
+	BlockChainFactories["BlockLogic"] = bltg.NewBltgRPC
 	BlockChainFactories["Zcash"] = zec.NewZCashRPC
 	BlockChainFactories["Zcash Testnet"] = zec.NewZCashRPC
 	BlockChainFactories["Ethereum"] = eth.NewEthereumRPC

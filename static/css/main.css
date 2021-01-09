@@ -95,14 +95,14 @@ h3 {
     border: 0;
 }
 
-.bg-trezor {
+.bg-bltg {
     background-color: #212121!important;
     padding-top: 3px;
     padding-bottom: 2px;
     z-index: 2;
 }
 
-.bg-trezor .navbar-brand {
+.bg-bltg .navbar-brand {
     color: rgba(255, 255, 255);
     font-weight: bold;
     font-size: 19px;
@@ -113,7 +113,7 @@ h3 {
     .navbar {
         font-size: 14px;
     }
-    .bg-trezor .navbar-brand {
+    .bg-bltg .navbar-brand {
         font-weight: normal;
         font-size: 14px;
     }
