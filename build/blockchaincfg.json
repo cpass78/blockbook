@@ -1,7 +1,7 @@
 {
-    "coin_name": "Block Logic",
+    "coin_name": "BlockLogic",
     "coin_shortcut": "BLTG",
-    "coin_label": "Block Logic",
+    "coin_label": "BlockLogic",
     "rpc_url": "http://127.0.0.1:8096",
     "rpc_user": "myrpcuser65432345",
     "rpc_pass": "myrpcpass654345654",

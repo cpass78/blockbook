@@ -1,8 +1,8 @@
 {
   "coin": {
-    "name": "Block Logic",
+    "name": "BlockLogic",
     "shortcut": "BLTG",
-    "label": "Block Logic",
+    "label": "BlockLogic",
     "alias": "block-logic"
   },
   "ports": {
