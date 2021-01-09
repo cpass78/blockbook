@@ -1,9 +1,9 @@
 {
   "coin": {
-    "name": "Block-Logic",
+    "name": "Block Logic",
     "shortcut": "BLTG",
-    "label": "Block-Logic",
-    "alias": "BLTG"
+    "label": "Block Logic",
+    "alias": "block-logic"
   },
   "ports": {
     "backend_rpc": 8096,
